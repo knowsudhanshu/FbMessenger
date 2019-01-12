@@ -12,22 +12,22 @@
 		AD30BEF4207B4D5F0035FB4D /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30BEF3207B4D5F0035FB4D /* CustomTabbarController.swift */; };
 		AD5AAD322075D9CB00D4B32E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5AAD312075D9CB00D4B32E /* AppDelegate.swift */; };
 		AD5AAD342075D9CB00D4B32E /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5AAD332075D9CB00D4B32E /* FriendsController.swift */; };
-		AD5AAD3A2075D9CB00D4B32E /* fbMessanger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD5AAD382075D9CB00D4B32E /* fbMessanger.xcdatamodeld */; };
 		AD5AAD3C2075D9CE00D4B32E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5AAD3B2075D9CE00D4B32E /* Assets.xcassets */; };
 		AD5AAD3F2075D9CE00D4B32E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5AAD3D2075D9CE00D4B32E /* LaunchScreen.storyboard */; };
+		AD941F8821EA6111009C1F46 /* fbMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD941F8621EA6111009C1F46 /* fbMessenger.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD30BEEF207A48200035FB4D /* FriendsControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsControllerHelper.swift; sourceTree = "<group>"; };
 		AD30BEF1207B33110035FB4D /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
 		AD30BEF3207B4D5F0035FB4D /* CustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
-		AD5AAD2E2075D9CB00D4B32E /* fbMessanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbMessanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5AAD2E2075D9CB00D4B32E /* fbMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5AAD312075D9CB00D4B32E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD5AAD332075D9CB00D4B32E /* FriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
-		AD5AAD392075D9CB00D4B32E /* fbMessanger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fbMessanger.xcdatamodel; sourceTree = "<group>"; };
 		AD5AAD3B2075D9CE00D4B32E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD5AAD3E2075D9CE00D4B32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD5AAD402075D9CE00D4B32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD941F8721EA6111009C1F46 /* fbMessanger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fbMessanger.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 		AD5AAD2F2075D9CB00D4B32E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD5AAD2E2075D9CB00D4B32E /* fbMessanger.app */,
+				AD5AAD2E2075D9CB00D4B32E /* fbMessenger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,12 +60,12 @@
 		AD5AAD302075D9CB00D4B32E /* fbMessanger */ = {
 			isa = PBXGroup;
 			children = (
+				AD941F8621EA6111009C1F46 /* fbMessenger.xcdatamodeld */,
 				AD5AAD312075D9CB00D4B32E /* AppDelegate.swift */,
 				AD5AAD332075D9CB00D4B32E /* FriendsController.swift */,
 				AD5AAD3B2075D9CE00D4B32E /* Assets.xcassets */,
 				AD5AAD3D2075D9CE00D4B32E /* LaunchScreen.storyboard */,
 				AD5AAD402075D9CE00D4B32E /* Info.plist */,
-				AD5AAD382075D9CB00D4B32E /* fbMessanger.xcdatamodeld */,
 				AD30BEEF207A48200035FB4D /* FriendsControllerHelper.swift */,
 				AD30BEF1207B33110035FB4D /* ChatLogController.swift */,
 				AD30BEF3207B4D5F0035FB4D /* CustomTabbarController.swift */,
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD5AAD2D2075D9CB00D4B32E /* fbMessanger */ = {
+		AD5AAD2D2075D9CB00D4B32E /* fbMessenger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD5AAD432075D9CE00D4B32E /* Build configuration list for PBXNativeTarget "fbMessanger" */;
+			buildConfigurationList = AD5AAD432075D9CE00D4B32E /* Build configuration list for PBXNativeTarget "fbMessenger" */;
 			buildPhases = (
 				AD5AAD2A2075D9CB00D4B32E /* Sources */,
 				AD5AAD2B2075D9CB00D4B32E /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = fbMessanger;
+			name = fbMessenger;
 			productName = fbMessanger;
-			productReference = AD5AAD2E2075D9CB00D4B32E /* fbMessanger.app */;
+			productReference = AD5AAD2E2075D9CB00D4B32E /* fbMessenger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD5AAD292075D9CB00D4B32E /* Build configuration list for PBXProject "fbMessanger" */;
+			buildConfigurationList = AD5AAD292075D9CB00D4B32E /* Build configuration list for PBXProject "fbMessenger" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD5AAD2D2075D9CB00D4B32E /* fbMessanger */,
+				AD5AAD2D2075D9CB00D4B32E /* fbMessenger */,
 			);
 		};
 /* End PBXProject section */
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD30BEF2207B33110035FB4D /* ChatLogController.swift in Sources */,
-				AD5AAD3A2075D9CB00D4B32E /* fbMessanger.xcdatamodeld in Sources */,
+				AD941F8821EA6111009C1F46 /* fbMessenger.xcdatamodeld in Sources */,
 				AD5AAD342075D9CB00D4B32E /* FriendsController.swift in Sources */,
 				AD5AAD322075D9CB00D4B32E /* AppDelegate.swift in Sources */,
 				AD30BEF4207B4D5F0035FB4D /* CustomTabbarController.swift in Sources */,
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD5AAD292075D9CB00D4B32E /* Build configuration list for PBXProject "fbMessanger" */ = {
+		AD5AAD292075D9CB00D4B32E /* Build configuration list for PBXProject "fbMessenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD5AAD412075D9CE00D4B32E /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD5AAD432075D9CE00D4B32E /* Build configuration list for PBXNativeTarget "fbMessanger" */ = {
+		AD5AAD432075D9CE00D4B32E /* Build configuration list for PBXNativeTarget "fbMessenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD5AAD442075D9CE00D4B32E /* Debug */,
@@ -340,13 +340,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		AD5AAD382075D9CB00D4B32E /* fbMessanger.xcdatamodeld */ = {
+		AD941F8621EA6111009C1F46 /* fbMessenger.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				AD5AAD392075D9CB00D4B32E /* fbMessanger.xcdatamodel */,
+				AD941F8721EA6111009C1F46 /* fbMessanger.xcdatamodel */,
 			);
-			currentVersion = AD5AAD392075D9CB00D4B32E /* fbMessanger.xcdatamodel */;
-			path = fbMessanger.xcdatamodeld;
+			currentVersion = AD941F8721EA6111009C1F46 /* fbMessanger.xcdatamodel */;
+			path = fbMessenger.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
